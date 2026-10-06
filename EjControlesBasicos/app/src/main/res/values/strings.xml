@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EjControlesBasicos</string>
+    <string name="reserva">Reserva de ruta en bici</string>
+    <string name="bici">Tipo de bicicleta\n</string>
+    <string-array name="ciudades">
+        <item>Madrid</item>
+        <item>Barcelona</item>
+        <item>Valencia</item>
+        <item>Sevilla</item>
+        <item>Zaragoza</item>
+        <item>Málaga</item>
+        <item>Murcia</item>
+        <item>Palma de Mallorca</item>
+        <item>Las Palmas de Gran Canaria</item>
+        <item>Bilbao</item>
+        <item>Alicante</item>
+        <item>Córdoba</item>
+        <item>Valladolid</item>
+        <item>Vigo</item>
+        <item>Gijón</item>
+    </string-array>
+    <string-array name="tipos_bicicletas">
+        <item>Carretera</item>
+        <item>Montaña (MTB)</item>
+        <item>Urbana</item>
+        <item>Híbrida</item>
+        <item>Gravel</item>
+        <item>Eléctrica (e-Bike)</item>
+        <item>Plegable</item>
+        <item>Fixie / Piñón fijo</item>
+        <item>BMX</item>
+        <item>Touring / Gran fondo</item>
+        <item>Triatlón / Cabra</item>
+        <item>Carga (Cargo bike)</item>
+    </string-array>
+</resources>

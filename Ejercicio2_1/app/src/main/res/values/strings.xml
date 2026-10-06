@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ejercicio2_1</string>
+    <string name="btnCamara">Abrir Camara</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="txtBienvenido">Bienvenido</string>
+    <string name="txtPregunta">¿Qué desea hacer?</string>
+    <string name="btnVolver">Volver</string>
+    <string name="btnBuscar">Buscar en navegador</string>
+    <string name="txtFin">Fin del trayecto</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="bienvenidos">BIENVENIDOS</string>
+    <string name="pulsar">Pulsa el boton para continuar</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+</resources>

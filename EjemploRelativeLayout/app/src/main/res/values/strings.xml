@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EjemploRelativeLayout</string>
+    <string name="nombreAlumno">Nombre del alumno</string>
+    <string name="CFGS">CFGS DAM - 2º Curso</string>
+    <string name="descripcion">Breve descripción del perfil</string>
+
+    <!-- GridLayout 2 -->
+    <string name="Suscribete">Suscribete</string>
+    <string name="pasos">Completa estos sencillos pasos</string>
+    <string name="email">Email:</string>
+    <string name="contra">Contraseña:</string>
+    <string name="btnNext">Next</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio2_1</string>
+    <string name="camara">Abrir Camara</string>
+    <string name="sig">Siguiente</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="preg">¿Que deseas hacer?</string>
+</resources>

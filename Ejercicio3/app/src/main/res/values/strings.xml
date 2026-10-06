@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicio1.3</string>
+    <string name="felicitacion">FELIZ CUMPLEAÑOS</string>
+    <string name="pregunta">¿Quieres saber cual es tu regalo?</string>
+    <string name="btnSi">SI</string>
+    <string name="btnNo">NO</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjemploT2</string>
+    <string name="usuario">Nombre de Usuario</string>
+    <string name="contrasenia">Contraseña</string>
+</resources>
