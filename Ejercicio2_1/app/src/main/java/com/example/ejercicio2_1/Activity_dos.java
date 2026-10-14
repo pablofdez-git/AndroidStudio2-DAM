@@ -21,6 +21,15 @@ public class Activity_dos extends AppCompatActivity {
             return insets;
         });
 
-        btn
+        android.widget.Button btnVolver = findViewById(R.id.btnVolver);
+        android.widget.Button btnNavegador = findViewById(R.id.btnNavegador);
+
+        btnVolver.setOnClickListener(v -> finish());
+
+        btnNavegador.setOnClickListener(v -> {
+            android.content.Intent intentNavegador = new android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse("https://www.google.com"));
+            startActivity(intentNavegador);
+        });
+
     }
 }

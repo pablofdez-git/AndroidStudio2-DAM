@@ -11,7 +11,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
         android:orientation="vertical"
         android:padding="16dp"
         tools:context=".MainActivity">
@@ -54,7 +53,7 @@
             android:textColorHint="#555555" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -65,7 +64,7 @@
             android:textColorHint="#555555" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/etTelefono"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -76,7 +75,7 @@
             android:textColorHint="#555555" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/etContrasenia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
@@ -93,11 +92,13 @@
             android:layout_marginBottom="10dp"
             android:completionThreshold="1"
             android:hint="Ciudad de salida"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
             android:textColor="#000000"
             android:textColorHint="#555555" />
 
         <MultiAutoCompleteTextView
-            android:id="@+id/multiAutoCompleteTextView"
+            android:id="@+id/etMaterial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
@@ -123,7 +124,7 @@
             android:layout_marginBottom="12dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/tvRuta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -133,7 +134,7 @@
             android:textStyle="bold" />
 
         <RadioGroup
-            android:id="@+id/radioGroupNivel"
+            android:id="@+id/rgDificultad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
@@ -175,7 +176,7 @@
             android:textOn="RUTA GUIADA" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/tvPersonas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
@@ -223,6 +224,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:numStars="5"
             android:rating="3.5"
             android:stepSize="0.5" />
 
@@ -233,7 +235,7 @@
             android:text="Resumen" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine"
+            android:id="@+id/etTextoMulti"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -247,7 +249,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnLimpiar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -255,7 +257,7 @@
                 android:text="Limpiar" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnReservar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"

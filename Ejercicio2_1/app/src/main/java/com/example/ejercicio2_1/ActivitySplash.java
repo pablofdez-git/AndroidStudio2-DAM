@@ -23,13 +23,10 @@ public class ActivitySplash extends AppCompatActivity {
             return insets;
         });
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Intent intent = new Intent(ActivitySplash.this, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        },5000);
+        new Handler(android.os.Looper.getMainLooper()).postDelayed(() -> {
+            Intent intent = new Intent(ActivitySplash.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }, 5000);
     }
 }

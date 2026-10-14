@@ -35,6 +35,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnCamara.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentCamara = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivity(intentCamara);
+            }
+        });
 
     }
 }
